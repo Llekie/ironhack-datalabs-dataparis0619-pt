@@ -1,0 +1,16 @@
+Lien vers le dossier : https://public.tableau.com/profile/llekieffre#!/vizhome/projetTableau/Electionssousla5erpublique?publish=yes
+
+Pour ce projet, j'ai choisi de travailler sur les résultats des élections présidentielles depuis 1965.
+Je me suis limitée aux résultats des 1ers tours, soit 9 fichiers.
+J'ai donc commencé par un travail sur python pour constituer mon fichier source (cf "concatenation fichiers.ipynb") :
+- le format des fichiers est un peu particulier : les données sont concaténées au détail département/circonscription, avec une colonne pour les voix de chacun des candidats. J'ai donc travaillé les données pour obtenir un champ année qui me permette de faire des séries temporelles
+
+Le détail des manipulations est dans le fichier python.
+A noter : le fichier 2012, formaté différemment des autres (libellés des colonnes), ne m'a pas facilité la tâche... 
+
+Une fois la source définitive sortie, j'ai cherché à identifier des pistes intéressantes.
+J'ai commencé par travailler sur les électeurs : quelle évolution dans la masse électorale ? et dans sa mobilisation ?
+J'ai ensuite tenté de faire quelque chose avec les régions, mais le nombre de valeurs rendait difficile une représentation, ou reprenait le travail déjà fait pour le projet de dataviz (pour lequel j'avais travaillé sur une année de vote seulement)
+Je me suis plutôt intéressée aux candidats. Assez vite, je me suis retrouvée là aussi confrontée au grand nombre de valeurs, qui nuisent à la lisibilité des graphs. J'ai donc fait des clusters avec les partis, pour les regrouper en grandes familles politiques.
+
+Grosses difficultés pour faire la mise en forme finale des pages...
